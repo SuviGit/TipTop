@@ -13,6 +13,8 @@
 		767BC2AF2692436F004F2F11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767BC2AE2692436F004F2F11 /* Preview Assets.xcassets */; };
 		767BC2BA26924370004F2F11 /* TipTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767BC2B926924370004F2F11 /* TipTopTests.swift */; };
 		767BC2C526924370004F2F11 /* TipTopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767BC2C426924370004F2F11 /* TipTopUITests.swift */; };
+		767BC2D726924943004F2F11 /* TipCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767BC2D626924943004F2F11 /* TipCard.swift */; };
+		767BC2E026924A8F004F2F11 /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767BC2DF26924A8F004F2F11 /* TipCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		767BC2C026924370004F2F11 /* TipTopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipTopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		767BC2C426924370004F2F11 /* TipTopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipTopUITests.swift; sourceTree = "<group>"; };
 		767BC2C626924370004F2F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767BC2D626924943004F2F11 /* TipCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCard.swift; sourceTree = "<group>"; };
+		767BC2DF26924A8F004F2F11 /* TipCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				767BC2A726924367004F2F11 /* TipTopApp.swift */,
 				767BC2A926924367004F2F11 /* ContentView.swift */,
+				767BC2DE26924A39004F2F11 /* ViewModel */,
+				767BC2D5269248A4004F2F11 /* Model */,
 				767BC2AB2692436F004F2F11 /* Assets.xcassets */,
 				767BC2B02692436F004F2F11 /* Info.plist */,
 				767BC2AD2692436F004F2F11 /* Preview Content */,
@@ -128,6 +134,22 @@
 				767BC2C626924370004F2F11 /* Info.plist */,
 			);
 			path = TipTopUITests;
+			sourceTree = "<group>";
+		};
+		767BC2D5269248A4004F2F11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				767BC2D626924943004F2F11 /* TipCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		767BC2DE26924A39004F2F11 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				767BC2DF26924A8F004F2F11 /* TipCalculator.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				767BC2AA26924367004F2F11 /* ContentView.swift in Sources */,
+				767BC2E026924A8F004F2F11 /* TipCalculator.swift in Sources */,
+				767BC2D726924943004F2F11 /* TipCard.swift in Sources */,
 				767BC2A826924367004F2F11 /* TipTopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

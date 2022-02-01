@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct TipTopApp: App {
+    
+    //let tipTop = TipCalculator()
+   
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(TipCalculator())
         }
     }
 }
